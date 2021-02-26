@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <form action="">
+      <form action="" oninput="x.value = parseInt(a.value)+ parseInt(b.value)"></form>
         <div>
           <label for="input-nombre">NOMBRE MADRE :</label><br />
           <input type="text" name="input_nombre" id="input_nombre" />
@@ -68,6 +68,20 @@
         <div>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10">DESARROLLO FRONTEND EN CODIGO </textarea>
             <button type="button" onclick="alert('CLICK EXITOSO')">CLICK</button>
+        </div>
+        <hr>
+        <div>
+            <div>
+                0
+                <label for="a"></label>
+                <input type="range" name="" id="a" value="50" >
+                100
+
+                <input type="number" name="b" id="b" value="50">=
+                <output name="x" for="a b">
+
+                </output>
+            </div>
         </div>
       </form>
     </main>
