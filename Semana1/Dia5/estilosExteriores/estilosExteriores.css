@@ -14,10 +14,24 @@ h1{
 }
 
 body{
-    background-color: black;
+    background-color: chocolate;
     text-align: start;
 }
 small{
     color: blanchedalmond;
     
+}
+/*Llamadas a clases de html*/
+.hola-mundo{
+    background-color: greenyellow;
+}
+.chau-mundo{
+    background-color: hotpink;
+}
+/*Llamada por id de html*/
+#Lugar{
+    background-color: honeydew;
+    color: gray;
+    font-weight: bold;
+    font-size: 200px;
 }
