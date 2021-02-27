@@ -1,0 +1,21 @@
+#nombre{
+   
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.class{
+    background-color: yellow;
+    color: black;
+}
+.class2{
+    background-color: darkseagreen;
+
+}
+#footer{
+    background-color:rgba(230, 99, 99, 0.267);
+    text-align: center;
+}
+#img{
+    text-align: center;
+}
