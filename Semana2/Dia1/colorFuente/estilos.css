@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+.negrita{
+    font-weight: bold;
+    
+}
+.italica{
+    font-style: italic;
+}
+#autor{
+    font-weight: bold;
+}
+.fuente{
+    font-family: 'Poppins', sans-serif;;
+}
