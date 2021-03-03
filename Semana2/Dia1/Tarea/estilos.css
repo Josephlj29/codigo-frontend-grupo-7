@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#nombre {
+  color: red;
+}
+#l1 {
+  color: rosybrown;
+}
+#l2 {
+  color: rgb(182, 21, 21);
+}
+#l3 {
+  color: rgb(32, 22, 68);
+}
+#l4 {
+  color: rgb(37, 155, 62);
+}
+#l5 {
+  color: rgb(190, 178, 10);
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+#prr1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: saddlebrown;
+}
+#prr2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(63, 196, 22);
+}
+#prr3{
+    font-family:cursive;
+    color: rgb(86, 114, 206);
+}
+#prr4{
+    font-family:monospace;
+    color: rgb(211, 154, 114);
+}
+#n1{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#n2{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+#n3{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: initial;
+}
+#pp{
+    display: flex;
+}
+
