@@ -1,0 +1,22 @@
+#bpuntos{
+    border-style: dotted;
+
+}
+#blineas{
+ border-style: dashed;
+}
+#bsolid{
+    border-style: solid;
+}
+#bdoble{
+    border-style: double;
+}
+h1{
+    border-style: outset;
+}
+#inset{
+    border-style: inset;
+}
+#bmulti{
+    border-style: dotted dashed solid double;
+}

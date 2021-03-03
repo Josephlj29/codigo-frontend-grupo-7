@@ -1,0 +1,21 @@
+*{
+  text-align: center;
+}
+#titulo{
+  border-style: double dashed dashed dotted ;
+}
+#bpuntos{
+  border-style: inset;
+
+}
+#blineas{
+border-style: double;
+}
+#bsolid{
+  border-style: solid;
+}
+#bdoble{
+  border-style: dotted double dotted double;
+  border-color: thistle;
+  border-radius: 20px;
+}
