@@ -1,0 +1,49 @@
+/* gradiente de arriba hacia abajo */
+#gradiente-linear{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(purple,rgb(22, 235, 171),white);
+}
+/* gradient of left to right */
+#gradiente-lateral-derecha{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right ,red, yellow);
+}
+
+#gradiente-lateral-izquierda{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to left ,red, yellow);
+}
+#gradiente-diagonal-fondo-derecha{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom right ,aqua, gray); 
+}
+#gradiente-linear-angulos{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(60deg,aquamarine,gray); 
+}
+#gradiente-linear-multicolor{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(lightblue ,aquamarine,gray); 
+}
+#gradiente-linear-multicolor-mas3{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(purple ,lightblue ,aquamarine,gray); 
+}
+#gradiente-transparencia{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,0.8));
+    /* the final parameter is the transparency from 0 to 1 */
+}
+#repetir-gradiente-transparente{
+    height: 250px;
+    width: 250px;
+    background-image: repeating-linear-gradient(RED,yellow 10%,green 20%);
+}

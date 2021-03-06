@@ -1,0 +1,33 @@
+*{
+font-size: 20px;
+}
+body{
+    background-image: linear-gradient(to bottom,aquamarine,gray);
+    text-align: center;
+}
+#cprin{
+    
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    margin:auto;
+    background-color: white;
+    text-align: center;
+}
+#rb{
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 100px;   
+}
+#rbfe{
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    
+}
+label{
+    margin-right: 15px;
+    margin-left: 15px;
+}

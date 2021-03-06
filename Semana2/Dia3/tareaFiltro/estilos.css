@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(purple,rgb(22, 235, 171),white);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#div1{
+    border-radius: 10px;
+    text-align: center;
+ 
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+#div2{
+    border-radius: 10px;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    filter: grayscale();
+
+
+}
+#pp{
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 600PX;
+    display: flex;
+}
