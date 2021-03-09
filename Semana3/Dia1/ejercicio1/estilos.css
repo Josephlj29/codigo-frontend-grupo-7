@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+}
+#logo{
+    margin:10px;
+    height: 40px;
+    width: 40px;
+}
+header{
+    position: fixed;
+    z-index: 2; /* al numero que este mas alto estara sobre los otros elementos */
+    height: 70px;
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;/* space between */
+    
+background: linear-gradient(to bottom , rgba(2,0,36,1) 0%, rgba(149,83,65,1) 100%);
+}
+nav{
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+#main{
+    z-index: 0;
+    text-align: center;
+    background-size: contain;
+    height: 200vh;
+    background-image: url("/Semana1/Public/Assets/images/pexels-paras-katwal-4218883.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#fondo{
+    width:100% ;
+    height: 100%;
+    position:absolute; 
+}
+#nombre{
+    position: relative;
+    font-family:"poppins",sans-serif;
+    top:100px !important;
+    color:rgba(2,0,36,1);
+    font-size: xxx-large;
+}
+a{
+    text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#perfil{
+    position: relative;
+    top: 140px !important;
+    left: 50px !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+
+}
+#botones{
+    position: relative;
+    top: 180px !important;
+   
+}
+.boton{
+    border-radius: 10px;
+    border:2px solid white;
+    background-color: rgb(2,0,36); 
+    color: burlywood;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    cursor:pointer;
+}
