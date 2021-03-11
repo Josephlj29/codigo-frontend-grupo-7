@@ -1,0 +1,16 @@
+body {
+  background-color: teal;
+}
+
+
+/* medida para pantallas extraspequeñas (celulares, hasta 600px) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: tomato;
+  }
+}
+
+/* pantallas pequeñas (tablets en modo vertical(portrait) y celulares grandes con ancho mayor a 600 px ) */
+@media  only and {min-width: none;}{
+
+}
