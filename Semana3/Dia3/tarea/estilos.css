@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    justify-content:flex-end;
+    
+    display: flex;
+    
+    
+}
+.nava{
+    padding: 4px;
+    text-decoration: none;
+    color: #5d5e5f;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    
+    
+}
+.nava:hover{
+    text-decoration:underline;
+    color: rgb(60, 39, 180);
+}
+nav{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#btnIS{
+    background-color: #4285F4;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    font-size: 17px;
+    border-radius: 9px;
+
+    
+}
+
+#taskimg{
+    height: 25px;
+    margin-top: 8px;
+    
+}
+#logoGoogle{
+    display: flex;
+    text-align: center;
+
+}
+#lgImg{
+    height: 100px;
+    margin-top: 260px;
+    margin-left: 42%;
+}
+#btnShare>img{
+    
+    height: 17px;
+    border: none;
+}
+#txtBusqueda{
+    width: 350px;
+    display: flex;
+    margin-top: 20px;
+   text-align: center;
+   border:1px solid black;
+   border-radius: 14px;
+   margin-left: 760px;
+   
+    
+}
+#txtBusqueda>input{
+    width: 350px;
+    border-radius: 30px;
+    border:none;
+}
+#txtBusqueda>img{
+    height: 17px;
+    border: none;
+     
+ }
+ #login{
+     text-align:center;
+     margin-top: 50px;
+ }
+ #texto>p{
+    text-align: center;
+    margin-top: 60px;
+}
+input:focus{
+    
+    outline: none;
+}
