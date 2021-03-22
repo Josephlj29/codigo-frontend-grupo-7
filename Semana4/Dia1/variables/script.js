@@ -34,11 +34,11 @@ let hobbies={
 let objhobbies=`Mi hobbes es: ${hobbies.hobbie} \n Tengo ${hobbies.nmascotas} mascotas \nsexo: ${hobbies.sexo}`
 console.log(objhobbies);
 
-let nombre={
+let clima={
     nom:"Joseph  LLanque",
     msg:"Bienvenido , mi nombre es :"
 }
-let objnombre=`${nombre.msg} ${nombre.nom}`
+let objnombre=`${clima.msg} ${clima.nom}`
 alert(objnombre)
 
 
